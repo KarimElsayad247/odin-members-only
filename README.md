@@ -1,24 +1,7 @@
-# README
+# Members Only
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Rails project, part of [TheOdinProject Rails course](https://www.theodinproject.com/lessons/ruby-on-rails-members-only)
 
-Things you may want to cover:
+The purpose of this project is to implement authentication systems os users
+can only access areas of a site they are authorized to.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
