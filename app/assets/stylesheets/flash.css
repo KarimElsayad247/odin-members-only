@@ -1,0 +1,15 @@
+.flash {
+    margin-top: 1rem;
+    background-color: white;
+    padding: 0.25rem;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+}
+
+.notice {
+    border-left: 3px solid green;
+}
+
+.alert {
+    border-left: 3px solid red;
+}
