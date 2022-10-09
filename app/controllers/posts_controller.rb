@@ -22,7 +22,9 @@ class PostsController < ApplicationController
   private
 
   def require_login
-    true
+    unless user_signed_in?
+      redirect_to new_user_registration_path
+    end
   end
 
   def post_params

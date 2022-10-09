@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="card">
       <%= link_to "Home", root_path %>
       <% if user_signed_in? %>
         <%= link_to current_user.email, edit_user_registration_path %>

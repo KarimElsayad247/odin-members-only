@@ -1,4 +1,4 @@
-<div class="post">
-  <h2><%= user_signed_in? ? post.user.email : "Anonymous" %></h2>
-  <p><%= post.body %></p>
+<div class="post card">
+  <h2 class="post-title"><%= user_signed_in? ? post.user.email : "Anonymous" %></h2>
+  <p class="post-body"><%= post.body %></p>
 </div>

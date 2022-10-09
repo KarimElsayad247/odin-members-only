@@ -1,0 +1,8 @@
+.statistics {
+    margin-top: 1rem;
+}
+
+.statistics.card {
+    border-left: 3px solid gold;
+}
+

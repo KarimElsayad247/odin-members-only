@@ -1,13 +1,15 @@
-<p>
+<div class="statistics card" >
+  <p>
   There are currently <%= Post.count %>
   <%= t(:available_posts, count: Post.count) %> in the house!
-</p>
+  </p>
 
-<p>
-  Our private club hosts a whooping <%= User.count %>
-  <%= t(:members, count: User.count) %>!
-</p>
+  <p>
+    Our private club hosts a whooping <%= User.count %>
+    <%= t(:members, count: User.count) %>!
+  </p>
+</div>
 
-<h1>Posts</h1>
+<h1 class="section-title">Posts</h1>
 
 <%= render @posts %>
