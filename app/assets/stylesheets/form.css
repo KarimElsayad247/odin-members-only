@@ -1,0 +1,37 @@
+form {
+    background-color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+}
+
+form label,
+form .field{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+form textarea {
+    margin-top: 0.5rem;
+    width: 80%;
+    height: 80px;
+
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 1rem;
+    padding: 7px;
+}
+
+input[type='submit'] {
+    margin-top: 1rem;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #5995DA;
+
+    border: none;
+    border-radius: 3px;
+
+    padding: 6px 20px;
+    cursor: pointer;
+}

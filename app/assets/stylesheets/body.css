@@ -14,9 +14,7 @@ header {
     align-items: center;
 }
 
-
-
-.section-title {
+h1, h2 {
     margin-top: 2rem;
 }
 
